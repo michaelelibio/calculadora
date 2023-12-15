@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caluculadora</title>
     <link rel="stylesheet" href="style/style.css">
-    <script type="module" src="funcoes/index.js"></script>
+    <script src="Script/index.js"></script>
 </head>
 <body>
     <div class="fundo">
@@ -15,8 +15,11 @@
             <p id="resultado"></p> 
             <table>
                 <tr>
-                    <td><button class="botao" onclick="clean()">AC</button></td>     
-                    <td><button class="botao" onclick="invert('')">+/-</button></td>
+                    <td>
+                        <button class="botao" onclick="clean()">
+                            AC
+                        </button>
+                        <td><button class="botao" onclick="invert('')">+/-</button></td>
                     <td><button class="botao" onclick="insert('%')">%</button></td>
                     <td><button class="botao" onclick="insert('/')">/</button></td>
                 </tr>
@@ -46,8 +49,10 @@
                 </tr>
              
             </table>
+                    </td>     
+                </tr>             
+            </table>
         </div>
-    
     </div>
 </body>
 </html>
